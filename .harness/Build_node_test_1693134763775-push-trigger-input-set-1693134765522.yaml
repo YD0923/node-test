@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_test_1693134763775-push-trigger-input-set
+  identifier: Build_node_test_1693134763775pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: socketchatapp
+  pipeline:
+    identifier: Build_node_test_1693134763775
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
